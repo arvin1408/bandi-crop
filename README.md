@@ -5,7 +5,7 @@ Crop status analysis module for BandiPurri Smart Farm
 Crop status analysis module for BandiPurri Smart Farm packaged as MATLAB assembly for C# .NET project integration.
 
 # Installation and Usage
-1. Run installer file in /for_redistribution folder. This will install the required MATLAB runtime if not detected and put application DLL in C:\Program Files\NareTrends\ folder
+1. Run installer file in \for_redistribution folder. This will install the required MATLAB runtime if not detected and put application DLL in C:\Program Files\NareTrends\ folder
 
 2. Create references in Visual Studio Project for the installed library and MATLAB's MWArray library:
 
