@@ -10,12 +10,12 @@ Crop status analysis module for BandiPurri Smart Farm packaged as MATLAB assembl
 2. Put crop data file bandicrop_data.ini in the installation folder or any location that can be specified in the code.
 C:\Program Files\NareTrends\BandiCropAnalyzer\application\
 
-2. Create references in Visual Studio Project for the installed library and MATLAB's MWArray library:
+3. Create references in Visual Studio Project for the installed library and MATLAB's MWArray library:
 
 C:\Program Files\NareTrends\BandiCropAnalyzer\application\BandiCropAnalyzer.dll <br />
 C:\Program Files\MATLAB\MATLAB Runtime\v##\toolbox\dotnetbuilder\bin\win64\version\MWArray.dll 
 
-3. Define import headers in C# code:
+4. Define import headers in C# code:
 
 using MathWorks.MATLAB.NET.Arrays; <br />
 using BandiCropAnalyzer;
