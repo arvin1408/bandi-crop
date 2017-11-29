@@ -26,7 +26,6 @@ namespace ConsoleApplication1
             MWLogicalArray TRUE = new MWLogicalArray(true), FALSE = new MWLogicalArray(false);
             MWNumericArray vpd_min_val = 0.5, vpd_max_val = 1.2, dewtemp_offset_val = 1.0;
 
-
             // initialize output struct fields - FOR REFERENCE
             String[] vpd_check_fields = { "type", "code", "state", "vpd", "vpd_min", "vpd_max", "hum_adj", "adjust_unit" };
             String[] dewpoint_check_fields = { "type", "code", "state", "temp", "temp_dew", "dewtemp_offset", "adjust", "adjust_unit" };
